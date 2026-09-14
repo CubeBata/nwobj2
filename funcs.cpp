@@ -30,8 +30,8 @@ bool isPrime(int n) {
 int main() {
     std::cout << "sum(3, 5) = " << sum(3, 5) << std::endl;
     std::cout << "factorial(5) = " << factorial(5) << std::endl;
-    std::cout << "isPrime(7) = " << (isPrime(7) ? "true" : "false") << std::endl;
-    std::cout << "isPrime(10) = " << (isPrime(10) ? "true" : "false") << std::endl;
+    std::cout << "isPrime(7) = " << std::boolalpha << isPrime(7) << std::endl;
+    std::cout << "isPrime(10) = " << std::boolalpha << isPrime(10) << std::endl;
 
     return 0;
 }
